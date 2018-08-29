@@ -9,6 +9,7 @@ public class FibonacciRecursive implements Fibonacci {
      */
     public int fibonacci(int n){
         //n is the index that you're moving towards
+        //base case is at zero
         if(n == 0){
             return 0;
         }else if(n == 1){

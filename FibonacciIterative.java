@@ -9,6 +9,7 @@ public class FibonacciIterative implements Fibonacci {
      */
     public int fibonacci(int n) {
         //n is the index that you are going to
+        //start at 0
         int n1 = 0;
         int n2 = 1;
         int current = n1 + n2;

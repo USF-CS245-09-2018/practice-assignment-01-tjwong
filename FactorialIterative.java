@@ -8,6 +8,7 @@ public class FactorialIterative implements Factorial {
      * @return n!
      */
     public int factorial(int n){
+       //start factorial with a value of one to make sure value at the end is produced correctly
         int totalFactorial = 1;
         for(int i = n; i > 0; i--){
             totalFactorial *= i;

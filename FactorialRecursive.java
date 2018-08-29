@@ -8,7 +8,7 @@ public class FactorialRecursive implements Factorial{
      * @return n!
      */
     public int factorial(int n){
-
+        //base case at index 0
         if(n == 0){
             return 1;
         } else{
