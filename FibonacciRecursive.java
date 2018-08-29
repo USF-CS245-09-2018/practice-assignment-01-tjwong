@@ -4,7 +4,7 @@ public class FibonacciRecursive implements Fibonacci {
      * The factorial function calculates fib(n), where:
      * fib(0) = 0; fib(1) = 1 ... and otherwise:
      * fib(n) = fib(n-1) + fib(n-2)
-     * @param n
+     * @param n the index
      * @return fib(n) as defined above.
      */
     public int fibonacci(int n){
@@ -15,6 +15,5 @@ public class FibonacciRecursive implements Fibonacci {
             return 1;
         }
         return fibonacci(n-1) + fibonacci(n-2);
-
     }
 }
